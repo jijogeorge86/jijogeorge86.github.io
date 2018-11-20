@@ -1,0 +1,120 @@
+/* Style the links inside the sidenav */
+#mySidenav a {
+    position:absolute; /* Position them relative to the browser window */
+    left: -80px; /* Position them outside of the screen */
+    transition: .3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+    /*background-color: #4CAF50;*/
+}
+
+#mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#about {
+    top: 220px;
+    background-color: #4CAF50;
+}
+
+#gaming {
+    top: 280px;
+    background-color: #2196F3; /* Blue */
+}
+
+#travel {
+    top: 340px;
+    background-color: #f44336; /* Red */
+}
+
+#life {
+    top: 400px;
+    background-color: #555 /* Light Black */
+}
+
+body{
+
+    border: 800px,900px,800px,800x;
+    margin: 10px,10px,10px,10px;
+    background-position: 50% 50%;
+    
+    }
+
+#body1
+{
+    
+    width: 1800px;
+    height: 800px;
+    background-image: url(Images/Image1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+#header{
+    text-align: center;
+    border: 10px,10px,10px,10x;
+    border-style:groove;
+    background-color: skyblue;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#header h1
+{
+    font-family:fantasy;
+    font-weight: 200;
+}
+
+
+#gif
+{ position: absolute;
+  top: 220px;
+  right: 20px;
+  transition-property: all; 
+  transition-duration: 2s;
+}
+
+#gif:hover
+{
+   
+    transform: rotate(360deg);
+    
+}
+
+#button1
+{
+    position: fixed;
+    left: 20%;
+    color:white;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    transition-property: all;
+    border-radius: 1em;
+    text-decoration: none;
+    float: right;
+}
+
+#button1 a
+{
+    
+    text-decoration: none;
+}
+
+#button1 a:hover
+{
+   transition-duration: .2s;
+   font-size: 40px;
+   border-radius: 1em;
+   
+    
+}
+
