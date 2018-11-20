@@ -18,22 +18,22 @@
 
 /* The about link: 20px from the top with a green background */
 #about {
-    top: 220px;
+    top: 320px;
     background-color: #4CAF50;
 }
 
 #gaming {
-    top: 280px;
+    top: 380px;
     background-color: #2196F3; /* Blue */
 }
 
 #travel {
-    top: 340px;
+    top: 440px;
     background-color: #f44336; /* Red */
 }
 
 #life {
-    top: 400px;
+    top: 500px;
     background-color: #555 /* Light Black */
 }
 
@@ -48,12 +48,12 @@ body{
 #body1
 {
     
-    width: 1800px;
+    width: 1200px;
     height: 800px;
     background-image: url(Images/Image1.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-size:cover;
     
 }
 
@@ -68,6 +68,7 @@ body{
 #header h1
 {
     font-family:fantasy;
+    font-size: 50px;
     font-weight: 200;
 }
 
@@ -118,3 +119,17 @@ body{
     
 }
 
+#footer{
+    text-align: center;
+    border: 10px,10px,10px,10x;
+    border-style:groove;
+    background-color: skyblue;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#footer h1
+{
+    font-family:fantasy;
+    font-size: 50px;
+    font-weight: 200;
+}
