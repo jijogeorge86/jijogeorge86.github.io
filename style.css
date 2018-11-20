@@ -68,7 +68,7 @@ body{
 #header h1
 {
     font-family:fantasy;
-    font-size: 50px;
+    font-size: 20px;
     font-weight: 200;
 }
 
@@ -88,36 +88,7 @@ body{
     
 }
 
-#button1
-{
-    position: fixed;
-    left: 20%;
-    color:white;
-    font-size: 30px;
-    margin-top: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    transition-property: all;
-    border-radius: 1em;
-    text-decoration: none;
-    float: right;
-}
 
-#button1 a
-{
-    
-    text-decoration: none;
-}
-
-#button1 a:hover
-{
-   transition-duration: .2s;
-   font-size: 40px;
-   border-radius: 1em;
-   
-    
-}
 
 #footer{
     text-align: center;
@@ -130,6 +101,6 @@ body{
 #footer h1
 {
     font-family:fantasy;
-    font-size: 50px;
+    font-size: 20px;
     font-weight: 200;
 }
