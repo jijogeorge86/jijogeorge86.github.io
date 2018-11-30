@@ -11,7 +11,31 @@
 
 			</head>
 			<body>
+                    
+                
+                    
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '256016151759655',
+      cookie     : true,
+      xfbml      : true,
+      version    : '3.2'
+    });
+      
+    FB.AppEvents.logPageView();   
+      
+  };
 
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+                
 					<nav class="navbar navbar-expand-lg navbar-light bg-light">
 						<div class="container"> 
 					  <a class="navbar-brand" href="#">Geekstradamus</a>
@@ -42,6 +66,7 @@
 								<div id="content">
 									<h1>Geekstradamus</h1>
 									<h3>#GoGeek</h3>
+                                    <div class="fb-login-button" data-width="300" data-max-rows="1" data-size="large" data-button-type="login_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="false"></div>
 									<hr>
 									<button class="btn-default btn-lg"><i class="fab fa-android"></i> Get Started</button>
 								</div>
