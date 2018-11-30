@@ -1,108 +1,35 @@
-/* Style the links inside the sidenav */
-#mySidenav a {
-    position:absolute; /* Position them relative to the browser window */
-    left: -80px; /* Position them outside of the screen */
-    transition: .3s; /* Add transition on hover */
-    padding: 15px; /* 15px padding */
-    width: 100px; /* Set a specific width */
-    text-decoration: none; /* Remove underline */
-    font-size: 20px; /* Increase font size */
-    color: white; /* White text color */
-    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
-    /*background-color: #4CAF50;*/
+#content
+{
+	text-align: center;
+	padding-top: 25%;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+	             0px 8px 13px rgba(0,0,0,0.1),
+	             0px 18px 23px rgba(0,0,0,0.1);
+
 }
 
-#mySidenav a:hover {
-    left: 0; /* On mouse-over, make the elements appear as they should */
-}
-
-/* The about link: 20px from the top with a green background */
-#about {
-    top: 321px;
-    background-color: #4CAF50;
-}
-
-#gaming {
-    top: 380px;
-    background-color: #2196F3; /* Blue */
-}
-
-#travel {
-    top: 440px;
-    background-color: #f44336; /* Red */
-}
-
-#life {
-    top: 500px;
-    background-color: #555 /* Light Black */
+html
+{
+	height: 100%;
 }
 
 body{
+	background: url("https://images.unsplash.com/photo-1514302240736-b1fee5985889?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bd67c5d168faa96f37e825a562005e12&auto=format&fit=crop&w=967&q=80");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	font-family: 'Lato', sans-serif;
+	color: white;
+}
 
-    border: 800px,900px,800px,800x;
-    margin: 10px,10px,10px,10px;
-    background-position: 50% 50%;
-    
-    }
+h1
+{ font-weight: 700;
+font-size: 5em; }
 
-#body1
+hr
 {
-    
-    width: 1200px;
-    height: 800px;
-    background-image: url(Images/Image1.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size:cover;
-    
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
 }
-
-#header{
-    text-align: center;
-    border: 10px,10px,10px,10x;
-    border-style:groove;
-    background-color: skyblue;
-    border-radius: 10px 10px 10px 10px;
-}
-
-#header h1
-{
-    font-family:fantasy;
-    font-size: 20px;
-    font-weight: 200;
-}
-
-
-#gif
-{ position: absolute;
-  top: 220px;
-  right: 20px;
-  transition-property: all; 
-  transition-duration: 2s;
-}
-
-#gif:hover
-{
-   
-    transform: rotate(360deg);
-    
-}
-
-
-
-#footer{
-    text-align: center;
-    border: 10px,10px,10px,10x;
-    border-style:groove;
-    background-color: skyblue;
-    border-radius: 10px 10px 10px 10px;
-}
-
-#footer h1
-{
-    font-family:fantasy;
-    font-size: 20px;
-    font-weight: 200;
-}
-
 
